@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="text-center mb-4">Контакти</h2>
+
+<form class="mx-auto" style="max-width: 600px;">
+  <div class="mb-3">
+    <label for="name" class="form-label">Ім’я</label>
+    <input type="text" class="form-control" id="name" placeholder="Введіть ваше ім’я">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">Повідомлення</label>
+    <textarea class="form-control" id="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+  </div>
+  <button type="submit" class="btn btn-success w-100">Надіслати</button>
+</form>
+{% endblock %}

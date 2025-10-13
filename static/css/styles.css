@@ -1,0 +1,160 @@
+/* 🌸 Загальні стилі сторінки */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5; /* ніжно-рожевий фон */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🩷 Заголовки */
+h1, h2, h3 {
+    color: #b3005e; /* насичений рожево-малиновий */
+    font-weight: 600;
+}
+
+/* 📄 Секції */
+section {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.25);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(255, 105, 180, 0.3);
+}
+
+/* 💖 Фото профілю */
+img.rounded-circle {
+    border: 4px solid #ffb6c1;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.8);
+}
+
+/* 💫 Навігаційне меню */
+.navbar {
+    background: linear-gradient(90deg, #ff9ecd, #ff85b3);
+    box-shadow: 0 3px 10px rgba(255, 182, 193, 0.4);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffe6f0 !important;
+    text-decoration: underline;
+}
+
+/* 🌺 Кнопки (кастомні Bootstrap кольори) */
+.btn-primary {
+    background-color: #ff69b4 !important;
+    border-color: #ff69b4 !important;
+    box-shadow: 0 2px 6px rgba(255, 105, 180, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #ff85c1 !important;
+    border-color: #ff85c1 !important;
+    box-shadow: 0 3px 10px rgba(255, 105, 180, 0.4);
+}
+
+.btn-success {
+    background-color: #ff8ab8 !important;
+    border-color: #ff8ab8 !important;
+}
+
+.btn-success:hover {
+    background-color: #ffa0cc !important;
+    border-color: #ffa0cc !important;
+}
+
+/* 💻 Картки проектів */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.3);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.35);
+}
+
+.card-title {
+    color: #b3005e;
+}
+
+/* 🧁 Форма контактів */
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.25);
+}
+
+input, textarea {
+    border: 1px solid #ffcce0;
+    border-radius: 6px;
+    padding: 8px 10px;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff7eb9;
+    box-shadow: 0 0 6px rgba(255, 105, 180, 0.4);
+}
+
+/* 🌷 Футер */
+footer {
+    background-color: #ff7eb9;
+    color: white;
+    font-size: 0.9rem;
+    padding: 15px 0;
+    margin-top: 50px;
+    box-shadow: 0 -3px 8px rgba(255, 105, 180, 0.3);
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #ffe6f0;
+}
+
+/* 🌸 Маленькі акценти */
+a {
+    color: #d63384;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #b3005e;
+}
+
+/* 📱 Адаптація */
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+    section {
+        padding: 20px;
+    }
+    img.rounded-circle {
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center mb-5">
+    <img src="{{ url_for('static', filename='images/photo.jpg') }}" style="width:150px; height:auto;">
+
+
+
+
+    <p class="text-muted">Python / Flask Developer</p>
+</div>
+
+<section id="about" class="mb-5">
+    <h2>Про себе</h2>
+    <p>Я люблю чорний колір</p>
+</section>
+
+<section id="education" class="mb-5">
+    <h2>Освіта</h2>
+    <ul>
+        <li>Карпатський університет імені В.Стефаника — Інженерія програмного забезпечення (2023–2027)</li>
+    </ul>
+</section>
+
+<section id="skills" class="mb-5">
+    <h2>Навички</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <ul>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>Git / GitHub</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <ul>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>SQL, SQLite</li>
+                <li>REST API</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="mb-5">
+    <h2>Проєкти</h2>
+    <p> Немає, бо я нічого не вмію</p>
+    <a href="https://github.com/" target="_blank" class="btn btn-primary">Мій GitHub</a>
+</section>
+{% endblock %}
