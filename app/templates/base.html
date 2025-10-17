@@ -2,24 +2,31 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Flask App{% endblock %}</title>
+    <title>{% block title %}Flask Lab 4{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <header>
-        <h1>Flask Blueprint App</h1>
-        <nav>
-            <a href="{{ url_for('users.greetings', name='Іванна') }}">👤 Користувачі</a> |
-            <a href="{{ url_for('products.list_products') }}">🛒 Продукти</a>
-        </nav>
-    </header>
+<header>
+    <h1>Flask Lab 4: Request, Session, Cookies</h1>
+    <nav>
+        <a href="{{ url_for('users.login') }}">Вхід</a> |
+        <a href="{{ url_for('users.profile') }}">Профіль</a> |
+        <a href="{{ url_for('users.logout') }}">Вихід</a>
+    </nav>
+</header>
 
-    <main>
-        {% block content %}{% endblock %}
-    </main>
+<section class="flash-container">
+    {% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+            {% for category, msg in messages %}
+                <div class="flash {{ category }}">{{ msg }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+</section>
 
-    <footer>
-        <p>© 2025 Flask Lab 3 | Піварчук Іванна</p>
-    </footer>
+<main>
+    {% block content %}{% endblock %}
+</main>
 </body>
 </html>

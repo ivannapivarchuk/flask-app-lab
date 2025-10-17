@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Профіль{% endblock %}
+
+{% block content %}
+<div class="profile {{ color }}">
+    <h2>Вітаємо, {{ user }}!</h2>
+
+    <h3>Кольорова схема:</h3>
+    <a href="{{ url_for('users.set_color', scheme='light') }}">🌞 Світла</a> |
+    <a href="{{ url_for('users.set_color', scheme='dark') }}">🌙 Темна</a>
+
+    <h3>Керування кукі:</h3>
+    <form method="POST" action="{{ url_for('users.add_cookie') }}">
+        <input type="text" name="key" placeholder="Ключ" required>
+        <input type="text" name="value" placeholder="Значення" required>
+        <input type="number" name="days" value="1" min="1">
+        <button type="submit">Додати</button>
+    </form>
+
+    <form method="POST" action="{{ url_for('users.delete_cookie') }}">
+        <input type="text" name="key" placeholder="Ключ або 'all'" required>
+        <button type="submit">Видалити</button>
+    </form>
+
+    <h3>Поточні кукі:</h3>
+    <table border="1" cellpadding="5">
+        <tr><th>Ключ</th><th>Значення</th></tr>
+        {% for key, value in cookies.items() %}
+        <tr><td>{{ key }}</td><td>{{ value }}</td></tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

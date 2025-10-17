@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Вхід{% endblock %}
+
+{% block content %}
+<h2>Авторизація</h2>
+<form method="POST">
+    <label>Ім’я користувача:</label><br>
+    <input type="text" name="username" required><br><br>
+
+    <label>Пароль:</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <button type="submit">Увійти</button>
+</form>
+{% endblock %}
