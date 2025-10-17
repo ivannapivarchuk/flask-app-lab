@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Привітання{% endblock %}
+
+{% block content %}
+<div class="user-container">
+    <aside class="sidebar">
+        <ul>
+            <li><a href="{{ url_for('users.greetings', name='John', age=25) }}">John</a></li>
+            <li><a href="{{ url_for('users.greetings', name='Kate', age=22) }}">Kate</a></li>
+            <li><a href="{{ url_for('users.admin') }}">Admin</a></li>
+        </ul>
+    </aside>
+
+    <section class="main-content">
+        <h2>Вітаємо, {{ name }}!</h2>
+        <p>Ваш вік: {{ age }}</p>
+    </section>
+</div>
+{% endblock %}
