@@ -1,0 +1,39 @@
+2025-10-29 20:07:09,930 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-29 20:07:09,930 - [33mPress CTRL+C to quit[0m
+2025-10-29 20:07:09,932 -  * Restarting with stat
+2025-10-29 20:07:10,435 -  * Debugger is active!
+2025-10-29 20:07:10,439 -  * Debugger PIN: 245-407-527
+2025-10-29 20:07:23,782 - 127.0.0.1 - - [29/Oct/2025 20:07:23] "GET /users/contact HTTP/1.1" 200 -
+2025-10-29 20:07:23,896 - 127.0.0.1 - - [29/Oct/2025 20:07:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-10-29 20:07:23,943 - 127.0.0.1 - - [29/Oct/2025 20:07:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-29 20:09:18,360 - 127.0.0.1 - - [29/Oct/2025 20:09:18] "[35m[1mPOST /users/contact HTTP/1.1[0m" 500 -
+2025-10-29 20:09:18,424 - 127.0.0.1 - - [29/Oct/2025 20:09:18] "GET /users/contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-29 20:09:18,453 - 127.0.0.1 - - [29/Oct/2025 20:09:18] "GET /users/contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-29 20:09:18,529 - 127.0.0.1 - - [29/Oct/2025 20:09:18] "GET /users/contact?__debugger__=yes&cmd=resource&f=console.png&s=uCXsbek5t12zzmWgFHcg HTTP/1.1" 200 -
+2025-10-29 20:09:18,565 - 127.0.0.1 - - [29/Oct/2025 20:09:18] "GET /users/contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-29 20:09:45,425 - 127.0.0.1 - - [29/Oct/2025 20:09:45] "[35m[1mPOST /users/contact HTTP/1.1[0m" 500 -
+2025-10-29 20:09:45,450 - 127.0.0.1 - - [29/Oct/2025 20:09:45] "[36mGET /users/contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-29 20:09:45,457 - 127.0.0.1 - - [29/Oct/2025 20:09:45] "[36mGET /users/contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-29 20:09:45,471 - 127.0.0.1 - - [29/Oct/2025 20:09:45] "[36mGET /users/contact?__debugger__=yes&cmd=resource&f=console.png&s=uCXsbek5t12zzmWgFHcg HTTP/1.1[0m" 304 -
+2025-10-29 20:09:45,521 - 127.0.0.1 - - [29/Oct/2025 20:09:45] "[36mGET /users/contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-29 20:14:36,485 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-29 20:14:36,485 - [33mPress CTRL+C to quit[0m
+2025-10-29 20:14:36,491 -  * Restarting with stat
+2025-10-29 20:14:37,057 -  * Debugger is active!
+2025-10-29 20:14:37,061 -  * Debugger PIN: 245-407-527
+2025-10-29 20:14:44,265 - 127.0.0.1 - - [29/Oct/2025 20:14:44] "GET /users/contact HTTP/1.1" 200 -
+2025-10-29 20:14:44,369 - 127.0.0.1 - - [29/Oct/2025 20:14:44] "GET /static/styles.css HTTP/1.1" 200 -
+2025-10-29 20:15:14,030 - Contact: Іванна (ivanna.pivarchuk.21@pnu.edu.ua) - Hello
+2025-10-29 20:15:14,031 - 127.0.0.1 - - [29/Oct/2025 20:15:14] "[32mPOST /users/contact HTTP/1.1[0m" 302 -
+2025-10-29 20:15:14,038 - 127.0.0.1 - - [29/Oct/2025 20:15:14] "GET /users/contact HTTP/1.1" 200 -
+2025-10-29 20:15:14,061 - 127.0.0.1 - - [29/Oct/2025 20:15:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-10-29 20:18:01,970 - 127.0.0.1 - - [29/Oct/2025 20:18:01] "GET /users/login HTTP/1.1" 200 -
+2025-10-29 20:18:01,998 - 127.0.0.1 - - [29/Oct/2025 20:18:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-10-29 20:18:04,026 - 127.0.0.1 - - [29/Oct/2025 20:18:04] "[32mGET /users/profile HTTP/1.1[0m" 302 -
+2025-10-29 20:18:04,035 - 127.0.0.1 - - [29/Oct/2025 20:18:04] "GET /users/login HTTP/1.1" 200 -
+2025-10-29 20:18:04,061 - 127.0.0.1 - - [29/Oct/2025 20:18:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-10-29 20:18:06,342 - 127.0.0.1 - - [29/Oct/2025 20:18:06] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-10-29 20:18:06,381 - 127.0.0.1 - - [29/Oct/2025 20:18:06] "GET /users/profile HTTP/1.1" 200 -
+2025-10-29 20:18:06,413 - 127.0.0.1 - - [29/Oct/2025 20:18:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -

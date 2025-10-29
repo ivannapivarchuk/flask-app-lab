@@ -9,19 +9,22 @@ users_bp = Blueprint("users", __name__, template_folder="templates")
 # --- Головна сторінка входу ---
 @users_bp.route("/login", methods=["GET", "POST"])
 def login():
-    if request.method == "POST":
-        username = request.form.get("username")
-        password = request.form.get("password")
+    form = LoginForm()
+    if form.validate_on_submit():
+        username = form.username.data
+        password = form.password.data
+        remember = form.remember.data
 
-        # 🔹 прості заглушки
         if username == "admin" and password == "1234":
             session["user"] = username
-            flash("Вхід успішний! Вітаємо, admin!", "success")
+            msg = "запам'ятати мене" if remember else "не запам'ятовувати"
+            flash(f"Вхід успішний для {username}! Опція: {msg}.", "success")
             return redirect(url_for("users.profile"))
         else:
-            flash("Неправильне ім’я користувача або пароль!", "error")
+            flash("Невірні дані для входу!", "error")
             return redirect(url_for("users.login"))
-    return render_template("users/login.html")
+    return render_template("users/login.html", form=form)
+
 
 
 # --- Профіль ---
@@ -93,3 +96,23 @@ def set_color(scheme):
     resp.set_cookie("color_scheme", scheme, max_age=60*60*24*30)
     flash(f"Кольорова схема змінена на {scheme}!", "success")
     return resp
+from app.forms import ContactForm, LoginForm
+import logging
+from flask import flash, redirect, url_for, render_template, session, request
+
+# 🔹 Логування у файл
+logging.basicConfig(filename="contact_log.txt", level=logging.INFO, format="%(asctime)s - %(message)s")
+
+@users_bp.route("/contact", methods=["GET", "POST"])
+def contact():
+    form = ContactForm()
+    if form.validate_on_submit():
+        name = form.name.data
+        email = form.email.data
+        message = form.message.data
+        logging.info(f"Contact: {name} ({email}) - {message}")
+        flash(f"Повідомлення від {name} ({email}) успішно відправлено!", "success")
+        return redirect(url_for("users.contact"))  # Post/Redirect/Get
+    elif request.method == "POST":
+        flash("Помилка у формі! Перевірте введені дані.", "error")
+    return render_template("users/contact.html", form=form)

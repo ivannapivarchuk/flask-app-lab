@@ -1,14 +1,14 @@
 {% extends "base.html" %}
-{% block title %}Вхід{% endblock %}
+{% block title %}Контакти{% endblock %}
 {% from "macros.html" import render_field %}
 
 {% block content %}
-<h2>Вхід у систему</h2>
+<h2>Контактна форма</h2>
 <form method="POST" novalidate>
     {{ form.csrf_token }}
-    {{ render_field(form.username) }}
-    {{ render_field(form.password) }}
-    {{ render_field(form.remember) }}
+    {{ render_field(form.name) }}
+    {{ render_field(form.email) }}
+    {{ render_field(form.message) }}
     {{ form.submit(class="btn") }}
 </form>
 {% endblock %}
