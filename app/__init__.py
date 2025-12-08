@@ -1,34 +1,41 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from sqlalchemy import MetaData # <--- Додали імпорт
 from app.config import config
 
-# Ініціалізація розширень
-db = SQLAlchemy()
-migrate = Migrate()
+# --- ВАЖЛИВО: Налаштування іменування ключів (щоб не було помилок міграцій) ---
+convention = {
+    "ix": 'ix_%(column_0_label)s',
+    "uq": "uq_%(table_name)s_%(column_0_name)s",
+    "ck": "ck_%(table_name)s_%(constraint_name)s",
+    "fk": "fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s",
+    "pk": "pk_%(table_name)s"
+}
+metadata = MetaData(naming_convention=convention)
+# ------------------------------------------------------------------------------
 
+# Передаємо metadata в SQLAlchemy
+db = SQLAlchemy(metadata=metadata)
+migrate = Migrate()
 
 def create_app(config_name='default'):
     app = Flask(__name__)
     app.config.from_object(config[config_name])
 
-    # Підключення БД та міграцій
     db.init_app(app)
     migrate.init_app(app, db)
 
-    # --- Реєстрація Blueprint'ів ---
-
-    # 1. Користувачі (Users)
+    # Блюпринти
     from app.users.views import users_bp
     app.register_blueprint(users_bp, url_prefix="/users")
 
-    # 2. Пости (Posts) - ТОЙ ЩО МИ ДОДАЛИ
     from app.posts import posts_bp
     app.register_blueprint(posts_bp, url_prefix="/post")
 
-    # -------------------------------
+    from app.products import products_bp
+    app.register_blueprint(products_bp, url_prefix="/products")
 
-    # Тимчасові маршрути
     @app.route('/')
     def home():
         return render_template('resume.html', title="Резюме")
