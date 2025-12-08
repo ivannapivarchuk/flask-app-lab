@@ -26,9 +26,7 @@ class Product(db.Model):
     price: Mapped[float] = mapped_column(Float, nullable=False)
     active: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
 
-    # --- НОВЕ ПОЛЕ ---
-    # server_default=func.now() змушує базу даних саму ставити час створення.
-    # Це автоматично заповнить дату для старих товарів!
+
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
         server_default=func.now(),
