@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Видалити пост?{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0">⚠️ Підтвердження видалення</h4>
+                </div>
+                <div class="card-body text-center p-5">
+                    <h5 class="card-title mb-4">Ви дійсно хочете видалити цей пост?</h5>
+
+                    <div class="alert alert-light border mb-4">
+                        <strong>"{{ post.title }}"</strong>
+                    </div>
+
+                    <p class="text-muted">Цю дію неможливо скасувати.</p>
+
+                    <form method="POST">
+                        <div class="d-grid gap-2 d-md-block">
+                            <a href="{{ url_for('posts.detail_post', id=post.id) }}" class="btn btn-secondary px-4">
+                                Скасувати
+                            </a>
+                            <input type="submit" class="btn btn-danger px-4" value="Так, видалити">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

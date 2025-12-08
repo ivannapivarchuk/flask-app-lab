@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Всі пости{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('posts.static', filename='css/posts.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="text-pink-bold">💖 Мої Публікації</h1>
+        <a href="{{ url_for('posts.create_post') }}" class="btn btn-pink shadow">
+            + Новий пост
+        </a>
+    </div>
+
+    <div class="row">
+        {% for post in posts %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm card-rounded bg-white">
+                <div class="p-2">
+                    <img src="{{ url_for('posts.static', filename='img/default.png') }}" class="card-img-top card-img-fixed" alt="post image">
+                </div>
+
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="badge bg-pink-light text-pink-bold border border-pink">
+                            {{ post.category.name }}
+                        </span>
+                        <small class="text-muted">{{ post.posted.strftime('%d.%m.%Y') }}</small>
+                    </div>
+
+                    <h5 class="card-title fw-bold text-dark">{{ post.title }}</h5>
+                    <p class="card-text text-muted">
+                        {{ post.content | truncate(100) }}
+                    </p>
+                </div>
+
+                <div class="card-footer bg-transparent border-0 pb-3 text-center">
+                    <a href="{{ url_for('posts.detail_post', id=post.id) }}" class="btn btn-outline-pink w-100">Читати далі 🌸</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

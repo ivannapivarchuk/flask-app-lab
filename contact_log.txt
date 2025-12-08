@@ -37,3 +37,269 @@
 2025-10-29 20:18:06,342 - 127.0.0.1 - - [29/Oct/2025 20:18:06] "[32mPOST /users/login HTTP/1.1[0m" 302 -
 2025-10-29 20:18:06,381 - 127.0.0.1 - - [29/Oct/2025 20:18:06] "GET /users/profile HTTP/1.1" 200 -
 2025-10-29 20:18:06,413 - 127.0.0.1 - - [29/Oct/2025 20:18:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 13:53:24,589 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 13:53:24,589 - [33mPress CTRL+C to quit[0m
+2025-12-08 13:55:33,635 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 13:55:33,635 - [33mPress CTRL+C to quit[0m
+2025-12-08 13:55:33,664 -  * Restarting with stat
+2025-12-08 13:55:34,506 -  * Debugger is active!
+2025-12-08 13:55:34,506 -  * Debugger PIN: 479-534-355
+2025-12-08 13:56:06,117 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 13:56:06,117 - [33mPress CTRL+C to quit[0m
+2025-12-08 13:56:06,117 -  * Restarting with stat
+2025-12-08 13:56:07,371 -  * Debugger is active!
+2025-12-08 13:56:07,388 -  * Debugger PIN: 479-534-355
+2025-12-08 13:56:11,826 - 127.0.0.1 - - [08/Dec/2025 13:56:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-08 13:56:12,033 - 127.0.0.1 - - [08/Dec/2025 13:56:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-08 13:56:13,790 - 127.0.0.1 - - [08/Dec/2025 13:56:13] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-08 14:15:34,934 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 14:15:34,934 - [33mPress CTRL+C to quit[0m
+2025-12-08 14:15:34,950 -  * Restarting with stat
+2025-12-08 14:15:36,833 -  * Debugger is active!
+2025-12-08 14:15:36,850 -  * Debugger PIN: 479-534-355
+2025-12-08 14:15:44,287 - 127.0.0.1 - - [08/Dec/2025 14:15:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-12-08 14:15:44,887 - 127.0.0.1 - - [08/Dec/2025 14:15:44] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-08 14:15:44,901 - 127.0.0.1 - - [08/Dec/2025 14:15:44] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-08 14:15:45,110 - 127.0.0.1 - - [08/Dec/2025 14:15:45] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Ir9pknfdMtqOY84T5olU HTTP/1.1" 200 -
+2025-12-08 14:15:45,160 - 127.0.0.1 - - [08/Dec/2025 14:15:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-08 14:18:09,530 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\__init__.py', reloading
+2025-12-08 14:18:09,898 -  * Restarting with stat
+2025-12-08 14:18:12,107 -  * Debugger is active!
+2025-12-08 14:18:12,123 -  * Debugger PIN: 479-534-355
+2025-12-08 14:18:36,408 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 14:18:36,408 - [33mPress CTRL+C to quit[0m
+2025-12-08 14:18:36,408 -  * Restarting with stat
+2025-12-08 14:18:38,289 -  * Debugger is active!
+2025-12-08 14:18:38,305 -  * Debugger PIN: 479-534-355
+2025-12-08 14:18:41,706 - 127.0.0.1 - - [08/Dec/2025 14:18:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-12-08 14:18:42,216 - 127.0.0.1 - - [08/Dec/2025 14:18:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-08 14:18:42,232 - 127.0.0.1 - - [08/Dec/2025 14:18:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-08 14:18:42,275 - 127.0.0.1 - - [08/Dec/2025 14:18:42] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=xxlvkUCuZW4C6L0rtzlV HTTP/1.1" 200 -
+2025-12-08 14:18:42,321 - 127.0.0.1 - - [08/Dec/2025 14:18:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-08 14:18:43,691 - 127.0.0.1 - - [08/Dec/2025 14:18:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-12-08 14:18:43,743 - 127.0.0.1 - - [08/Dec/2025 14:18:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-08 14:18:43,751 - 127.0.0.1 - - [08/Dec/2025 14:18:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-08 14:18:43,776 - 127.0.0.1 - - [08/Dec/2025 14:18:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=xxlvkUCuZW4C6L0rtzlV HTTP/1.1[0m" 304 -
+2025-12-08 14:18:43,824 - 127.0.0.1 - - [08/Dec/2025 14:18:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-08 14:54:07,238 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 14:54:07,238 - [33mPress CTRL+C to quit[0m
+2025-12-08 14:54:07,254 -  * Restarting with stat
+2025-12-08 14:54:09,224 -  * Debugger is active!
+2025-12-08 14:54:09,224 -  * Debugger PIN: 479-534-355
+2025-12-08 14:55:08,094 - 127.0.0.1 - - [08/Dec/2025 14:55:08] "GET / HTTP/1.1" 200 -
+2025-12-08 14:55:08,638 - 127.0.0.1 - - [08/Dec/2025 14:55:08] "GET /static/images/photo.jpg HTTP/1.1" 200 -
+2025-12-08 14:55:08,656 - 127.0.0.1 - - [08/Dec/2025 14:55:08] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-12-08 14:55:17,096 - 127.0.0.1 - - [08/Dec/2025 14:55:17] "GET /contacts HTTP/1.1" 200 -
+2025-12-08 14:55:17,170 - 127.0.0.1 - - [08/Dec/2025 14:55:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 14:55:18,157 - 127.0.0.1 - - [08/Dec/2025 14:55:18] "GET / HTTP/1.1" 200 -
+2025-12-08 14:55:18,221 - 127.0.0.1 - - [08/Dec/2025 14:55:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 14:55:18,226 - 127.0.0.1 - - [08/Dec/2025 14:55:18] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2025-12-08 19:25:05,472 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 19:25:05,472 - [33mPress CTRL+C to quit[0m
+2025-12-08 19:25:05,487 -  * Restarting with stat
+2025-12-08 19:25:07,606 -  * Debugger is active!
+2025-12-08 19:25:07,622 -  * Debugger PIN: 479-534-355
+2025-12-08 19:25:09,208 - 127.0.0.1 - - [08/Dec/2025 19:25:09] "GET / HTTP/1.1" 200 -
+2025-12-08 19:25:09,674 - 127.0.0.1 - - [08/Dec/2025 19:25:09] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2025-12-08 19:25:09,698 - 127.0.0.1 - - [08/Dec/2025 19:25:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:25:18,940 - 127.0.0.1 - - [08/Dec/2025 19:25:18] "[33mGET /blalala HTTP/1.1[0m" 404 -
+2025-12-08 19:25:19,012 - 127.0.0.1 - - [08/Dec/2025 19:25:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:27:42,413 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\__init__.py', reloading
+2025-12-08 19:27:43,046 -  * Restarting with stat
+2025-12-08 19:27:45,552 -  * Debugger is active!
+2025-12-08 19:27:45,567 -  * Debugger PIN: 479-534-355
+2025-12-08 19:28:09,117 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\models.py', reloading
+2025-12-08 19:28:09,515 -  * Restarting with stat
+2025-12-08 19:28:12,273 -  * Debugger is active!
+2025-12-08 19:28:12,282 -  * Debugger PIN: 479-534-355
+2025-12-08 19:28:41,752 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\__init__.py', reloading
+2025-12-08 19:28:42,140 -  * Restarting with stat
+2025-12-08 19:28:48,250 -  * Debugger is active!
+2025-12-08 19:28:48,266 -  * Debugger PIN: 902-411-354
+2025-12-08 19:29:36,859 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\__init__.py', reloading
+2025-12-08 19:29:37,137 -  * Restarting with stat
+2025-12-08 19:55:05,623 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 19:55:05,623 - [33mPress CTRL+C to quit[0m
+2025-12-08 19:55:05,623 -  * Restarting with stat
+2025-12-08 19:55:07,874 -  * Debugger is active!
+2025-12-08 19:55:07,884 -  * Debugger PIN: 479-534-355
+2025-12-08 19:55:12,733 - 127.0.0.1 - - [08/Dec/2025 19:55:12] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:13,165 - 127.0.0.1 - - [08/Dec/2025 19:55:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:18,677 - 127.0.0.1 - - [08/Dec/2025 19:55:18] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:18,737 - 127.0.0.1 - - [08/Dec/2025 19:55:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:19,272 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:19,329 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:19,447 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:19,508 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:19,622 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:19,681 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:19,816 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:19,873 - 127.0.0.1 - - [08/Dec/2025 19:55:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:23,841 - 127.0.0.1 - - [08/Dec/2025 19:55:23] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:23,899 - 127.0.0.1 - - [08/Dec/2025 19:55:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:24,185 - 127.0.0.1 - - [08/Dec/2025 19:55:24] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:24,230 - 127.0.0.1 - - [08/Dec/2025 19:55:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:55:24,423 - 127.0.0.1 - - [08/Dec/2025 19:55:24] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:55:24,463 - 127.0.0.1 - - [08/Dec/2025 19:55:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:56:07,393 - 127.0.0.1 - - [08/Dec/2025 19:56:07] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:56:07,467 - 127.0.0.1 - - [08/Dec/2025 19:56:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:56:08,066 - 127.0.0.1 - - [08/Dec/2025 19:56:08] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:56:08,133 - 127.0.0.1 - - [08/Dec/2025 19:56:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:57:34,537 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\__init__.py', reloading
+2025-12-08 19:57:34,985 -  * Restarting with stat
+2025-12-08 19:57:38,558 -  * Debugger is active!
+2025-12-08 19:57:38,558 -  * Debugger PIN: 902-411-354
+2025-12-08 19:57:43,278 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\__init__.py', reloading
+2025-12-08 19:57:43,568 -  * Restarting with stat
+2025-12-08 19:57:46,113 -  * Debugger is active!
+2025-12-08 19:57:46,122 -  * Debugger PIN: 479-534-355
+2025-12-08 19:57:54,632 - 127.0.0.1 - - [08/Dec/2025 19:57:54] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 19:57:54,964 - 127.0.0.1 - - [08/Dec/2025 19:57:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 19:59:41,709 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\__init__.py', reloading
+2025-12-08 19:59:41,959 -  * Restarting with stat
+2025-12-08 19:59:44,313 -  * Debugger is active!
+2025-12-08 19:59:44,329 -  * Debugger PIN: 902-411-354
+2025-12-08 19:59:51,552 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\__init__.py', reloading
+2025-12-08 19:59:51,849 -  * Restarting with stat
+2025-12-08 19:59:54,165 -  * Debugger is active!
+2025-12-08 19:59:54,197 -  * Debugger PIN: 479-534-355
+2025-12-08 20:00:03,104 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 20:00:03,104 - [33mPress CTRL+C to quit[0m
+2025-12-08 20:00:03,104 -  * Restarting with stat
+2025-12-08 20:00:04,743 -  * Debugger is active!
+2025-12-08 20:00:04,743 -  * Debugger PIN: 479-534-355
+2025-12-08 20:00:09,698 - 127.0.0.1 - - [08/Dec/2025 20:00:09] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 20:00:09,991 - 127.0.0.1 - - [08/Dec/2025 20:00:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:00:10,782 - 127.0.0.1 - - [08/Dec/2025 20:00:10] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 20:00:10,844 - 127.0.0.1 - - [08/Dec/2025 20:00:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:00:46,742 - 127.0.0.1 - - [08/Dec/2025 20:00:46] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 20:00:46,804 - 127.0.0.1 - - [08/Dec/2025 20:00:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:00:47,361 - 127.0.0.1 - - [08/Dec/2025 20:00:47] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 20:00:47,420 - 127.0.0.1 - - [08/Dec/2025 20:00:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:00:47,578 - 127.0.0.1 - - [08/Dec/2025 20:00:47] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 20:00:47,634 - 127.0.0.1 - - [08/Dec/2025 20:00:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:00:47,854 - 127.0.0.1 - - [08/Dec/2025 20:00:47] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 20:00:47,911 - 127.0.0.1 - - [08/Dec/2025 20:00:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:00:48,042 - 127.0.0.1 - - [08/Dec/2025 20:00:48] "[33mGET /post/create HTTP/1.1[0m" 404 -
+2025-12-08 20:00:48,107 - 127.0.0.1 - - [08/Dec/2025 20:00:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:00:52,389 - 127.0.0.1 - - [08/Dec/2025 20:00:52] "GET /posts/create HTTP/1.1" 200 -
+2025-12-08 20:00:52,453 - 127.0.0.1 - - [08/Dec/2025 20:00:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:05:36,315 - 127.0.0.1 - - [08/Dec/2025 20:05:36] "GET /posts/create HTTP/1.1" 200 -
+2025-12-08 20:05:36,370 - 127.0.0.1 - - [08/Dec/2025 20:05:36] "GET /posts/posts/static/css/posts.css HTTP/1.1" 200 -
+2025-12-08 20:05:36,375 - 127.0.0.1 - - [08/Dec/2025 20:05:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:07:48,237 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\tests\\test_posts.py', reloading
+2025-12-08 20:07:48,543 -  * Restarting with stat
+2025-12-08 20:07:51,008 -  * Debugger is active!
+2025-12-08 20:07:51,023 -  * Debugger PIN: 479-534-355
+2025-12-08 20:08:19,423 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\views.py', reloading
+2025-12-08 20:08:19,862 -  * Restarting with stat
+2025-12-08 20:08:23,123 -  * Debugger is active!
+2025-12-08 20:08:23,138 -  * Debugger PIN: 479-534-355
+2025-12-08 20:19:42,563 - 127.0.0.1 - - [08/Dec/2025 20:19:42] "[32mGET /posts HTTP/1.1[0m" 308 -
+2025-12-08 20:19:42,680 - 127.0.0.1 - - [08/Dec/2025 20:19:42] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:19:43,176 - 127.0.0.1 - - [08/Dec/2025 20:19:43] "GET /posts/posts/static/css/posts.css HTTP/1.1" 200 -
+2025-12-08 20:19:43,199 - 127.0.0.1 - - [08/Dec/2025 20:19:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:20:13,309 - 127.0.0.1 - - [08/Dec/2025 20:20:13] "GET /posts/create HTTP/1.1" 200 -
+2025-12-08 20:20:13,365 - 127.0.0.1 - - [08/Dec/2025 20:20:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:20:13,372 - 127.0.0.1 - - [08/Dec/2025 20:20:13] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:24:46,815 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-08 20:24:46,815 - [33mPress CTRL+C to quit[0m
+2025-12-08 20:24:46,815 -  * Restarting with stat
+2025-12-08 20:24:48,808 -  * Debugger is active!
+2025-12-08 20:24:48,824 -  * Debugger PIN: 479-534-355
+2025-12-08 20:24:57,424 - 127.0.0.1 - - [08/Dec/2025 20:24:57] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:24:57,924 - 127.0.0.1 - - [08/Dec/2025 20:24:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:24:57,975 - 127.0.0.1 - - [08/Dec/2025 20:24:57] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:00,127 - 127.0.0.1 - - [08/Dec/2025 20:25:00] "GET /posts/create HTTP/1.1" 200 -
+2025-12-08 20:25:00,181 - 127.0.0.1 - - [08/Dec/2025 20:25:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:00,193 - 127.0.0.1 - - [08/Dec/2025 20:25:00] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:15,925 - 127.0.0.1 - - [08/Dec/2025 20:25:15] "[32mPOST /posts/create HTTP/1.1[0m" 302 -
+2025-12-08 20:25:15,951 - 127.0.0.1 - - [08/Dec/2025 20:25:15] "GET /posts/create HTTP/1.1" 200 -
+2025-12-08 20:25:16,029 - 127.0.0.1 - - [08/Dec/2025 20:25:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:16,034 - 127.0.0.1 - - [08/Dec/2025 20:25:16] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:26,559 - 127.0.0.1 - - [08/Dec/2025 20:25:26] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:25:26,620 - 127.0.0.1 - - [08/Dec/2025 20:25:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:26,644 - 127.0.0.1 - - [08/Dec/2025 20:25:26] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:26,646 - 127.0.0.1 - - [08/Dec/2025 20:25:26] "GET /posts/posts/static/img/default.png HTTP/1.1" 200 -
+2025-12-08 20:25:30,477 - 127.0.0.1 - - [08/Dec/2025 20:25:30] "GET /posts/1 HTTP/1.1" 200 -
+2025-12-08 20:25:30,538 - 127.0.0.1 - - [08/Dec/2025 20:25:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:30,541 - 127.0.0.1 - - [08/Dec/2025 20:25:30] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:39,116 - 127.0.0.1 - - [08/Dec/2025 20:25:39] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:25:39,194 - 127.0.0.1 - - [08/Dec/2025 20:25:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:39,199 - 127.0.0.1 - - [08/Dec/2025 20:25:39] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:25:39,214 - 127.0.0.1 - - [08/Dec/2025 20:25:39] "[36mGET /posts/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-08 20:27:11,641 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\tests\\test_posts.py', reloading
+2025-12-08 20:27:12,306 -  * Restarting with stat
+2025-12-08 20:27:14,475 -  * Debugger is active!
+2025-12-08 20:27:14,492 -  * Debugger PIN: 479-534-355
+2025-12-08 20:27:47,140 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\views.py', reloading
+2025-12-08 20:27:48,181 -  * Restarting with stat
+2025-12-08 20:27:50,608 -  * Debugger is active!
+2025-12-08 20:27:50,617 -  * Debugger PIN: 479-534-355
+2025-12-08 20:28:32,267 - 127.0.0.1 - - [08/Dec/2025 20:28:32] "GET /posts/1 HTTP/1.1" 200 -
+2025-12-08 20:28:32,822 - 127.0.0.1 - - [08/Dec/2025 20:28:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:32,869 - 127.0.0.1 - - [08/Dec/2025 20:28:32] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:34,136 - 127.0.0.1 - - [08/Dec/2025 20:28:34] "GET /posts/1/update HTTP/1.1" 200 -
+2025-12-08 20:28:34,200 - 127.0.0.1 - - [08/Dec/2025 20:28:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:34,203 - 127.0.0.1 - - [08/Dec/2025 20:28:34] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:43,084 - 127.0.0.1 - - [08/Dec/2025 20:28:43] "[32mPOST /posts/1/update HTTP/1.1[0m" 302 -
+2025-12-08 20:28:43,102 - 127.0.0.1 - - [08/Dec/2025 20:28:43] "GET /posts/1 HTTP/1.1" 200 -
+2025-12-08 20:28:43,186 - 127.0.0.1 - - [08/Dec/2025 20:28:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:43,187 - 127.0.0.1 - - [08/Dec/2025 20:28:43] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:46,344 - 127.0.0.1 - - [08/Dec/2025 20:28:46] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:28:46,397 - 127.0.0.1 - - [08/Dec/2025 20:28:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:46,397 - 127.0.0.1 - - [08/Dec/2025 20:28:46] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:28:46,414 - 127.0.0.1 - - [08/Dec/2025 20:28:46] "[36mGET /posts/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-08 20:30:00,312 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\tests\\test_posts.py', reloading
+2025-12-08 20:30:00,500 -  * Restarting with stat
+2025-12-08 20:30:02,244 -  * Debugger is active!
+2025-12-08 20:30:02,253 -  * Debugger PIN: 479-534-355
+2025-12-08 20:30:18,115 -  * Detected change in 'C:\\Users\\Acer\\Documents\\webPy\\flask-lab-pivarchuk\\app\\posts\\views.py', reloading
+2025-12-08 20:30:18,497 -  * Restarting with stat
+2025-12-08 20:30:20,223 -  * Debugger is active!
+2025-12-08 20:30:20,235 -  * Debugger PIN: 479-534-355
+2025-12-08 20:31:37,762 - 127.0.0.1 - - [08/Dec/2025 20:31:37] "GET /posts/create HTTP/1.1" 200 -
+2025-12-08 20:31:38,271 - 127.0.0.1 - - [08/Dec/2025 20:31:38] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:31:38,298 - 127.0.0.1 - - [08/Dec/2025 20:31:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:02,493 - 127.0.0.1 - - [08/Dec/2025 20:32:02] "[32mPOST /posts/create HTTP/1.1[0m" 302 -
+2025-12-08 20:32:02,515 - 127.0.0.1 - - [08/Dec/2025 20:32:02] "GET /posts/create HTTP/1.1" 200 -
+2025-12-08 20:32:02,590 - 127.0.0.1 - - [08/Dec/2025 20:32:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:02,593 - 127.0.0.1 - - [08/Dec/2025 20:32:02] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:28,625 - 127.0.0.1 - - [08/Dec/2025 20:32:28] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:32:28,690 - 127.0.0.1 - - [08/Dec/2025 20:32:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:28,707 - 127.0.0.1 - - [08/Dec/2025 20:32:28] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:28,708 - 127.0.0.1 - - [08/Dec/2025 20:32:28] "[36mGET /posts/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-08 20:32:41,935 - 127.0.0.1 - - [08/Dec/2025 20:32:41] "GET /posts/2 HTTP/1.1" 200 -
+2025-12-08 20:32:41,986 - 127.0.0.1 - - [08/Dec/2025 20:32:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:41,986 - 127.0.0.1 - - [08/Dec/2025 20:32:41] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:50,274 - 127.0.0.1 - - [08/Dec/2025 20:32:50] "GET /posts/2/update HTTP/1.1" 200 -
+2025-12-08 20:32:50,343 - 127.0.0.1 - - [08/Dec/2025 20:32:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:32:50,348 - 127.0.0.1 - - [08/Dec/2025 20:32:50] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:33:16,652 - 127.0.0.1 - - [08/Dec/2025 20:33:16] "[32mPOST /posts/2/update HTTP/1.1[0m" 302 -
+2025-12-08 20:33:16,671 - 127.0.0.1 - - [08/Dec/2025 20:33:16] "GET /posts/2 HTTP/1.1" 200 -
+2025-12-08 20:33:16,750 - 127.0.0.1 - - [08/Dec/2025 20:33:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:33:16,752 - 127.0.0.1 - - [08/Dec/2025 20:33:16] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:33:34,350 - 127.0.0.1 - - [08/Dec/2025 20:33:34] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:33:34,419 - 127.0.0.1 - - [08/Dec/2025 20:33:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:33:34,427 - 127.0.0.1 - - [08/Dec/2025 20:33:34] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:33:34,429 - 127.0.0.1 - - [08/Dec/2025 20:33:34] "[36mGET /posts/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-08 20:33:59,889 - 127.0.0.1 - - [08/Dec/2025 20:33:59] "GET /posts/1 HTTP/1.1" 200 -
+2025-12-08 20:33:59,953 - 127.0.0.1 - - [08/Dec/2025 20:33:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:33:59,954 - 127.0.0.1 - - [08/Dec/2025 20:33:59] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:34:05,848 - 127.0.0.1 - - [08/Dec/2025 20:34:05] "GET /posts/1/delete HTTP/1.1" 200 -
+2025-12-08 20:34:05,915 - 127.0.0.1 - - [08/Dec/2025 20:34:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:34:11,771 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "[32mPOST /posts/1/delete HTTP/1.1[0m" 302 -
+2025-12-08 20:34:11,787 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "GET /posts/ HTTP/1.1" 200 -
+2025-12-08 20:34:11,861 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-08 20:34:11,863 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-08 20:34:11,865 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "[36mGET /posts/posts/static/img/default.png HTTP/1.1[0m" 304 -

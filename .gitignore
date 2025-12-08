@@ -1,5 +1,20 @@
+# Віртуальне середовище
+.venv/
 venv/
+env/
+
+# База даних
+instance/
+*.sqlite
+*.db
+
+# Кеш Python (сміття)
 __pycache__/
 *.pyc
+
+# Налаштування PyCharm (твого редактора)
+.idea/
+
+# Логи та змінні середовища
 .env
-.flaskenv
+*.log

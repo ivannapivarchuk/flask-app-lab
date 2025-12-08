@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Створити новий пост{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('posts.static', filename='css/posts.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg card-rounded bg-pink-light">
+                <div class="card-header bg-transparent border-0 text-center pt-4">
+                    <h2 class="text-pink-bold">✨ Створити новий пост ✨</h2>
+                </div>
+                <div class="card-body p-5">
+                    <form method="POST" action="">
+                        {{ form.hidden_tag() }}
+
+                        <div class="mb-4">
+                            {{ form.title.label(class="form-label text-muted fw-bold") }}
+                            {{ form.title(class="form-control form-control-lg form-control-soft", placeholder="Введіть заголовок...") }}
+                        </div>
+
+                        <div class="mb-4">
+                            {{ form.content.label(class="form-label text-muted fw-bold") }}
+                            {{ form.content(class="form-control form-control-soft", rows="6", placeholder="Напишіть щось цікаве...") }}
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                {{ form.category.label(class="form-label text-muted fw-bold") }}
+                                {{ form.category(class="form-select form-control-soft") }}
+                            </div>
+                            <div class="col-md-6">
+                                {{ form.publish_date.label(class="form-label text-muted fw-bold") }}
+                                {{ form.publish_date(class="form-control form-control-soft") }}
+                            </div>
+                        </div>
+
+                        <div class="mb-4 form-check">
+                            {{ form.is_active(class="form-check-input", style="background-color: #ff66b2; border-color: #ff66b2;") }}
+                            {{ form.is_active.label(class="form-check-label text-muted") }}
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            {{ form.submit(class="btn btn-lg btn-pink shadow") }}
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,102 @@
+/* Рожева тема для постів */
+.bg-pink-light {
+    background-color: #fff0f6; /* Дуже світлий рожевий */
+}
+
+.text-pink-bold {
+    color: #ff66b2;
+    font-weight: bold;
+}
+
+.form-control-soft {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.form-control-soft:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 102, 178, 0.25);
+    border-color: #ff66b2;
+}
+
+.btn-pink {
+    background-color: #ff66b2;
+    border-color: #ff66b2;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #ff3399;
+    border-color: #ff3399;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 51, 153, 0.3);
+}
+
+.card-rounded {
+    border-radius: 20px;
+    border: none;
+}
+/* --- Загальні рожеві стилі --- */
+.bg-pink-light {
+    background-color: #fff0f6;
+}
+
+.text-pink-bold {
+    color: #ff66b2;
+    font-weight: bold;
+}
+
+/* --- Картки --- */
+.card-rounded {
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card-rounded:hover {
+    transform: translateY(-5px); /* Ефект підняття при наведенні */
+}
+
+/* Фіксований розмір для картинки поста */
+.card-img-fixed {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px !important; /* Примусово заокруглюємо */
+}
+
+/* --- Кнопки --- */
+.btn-pink {
+    background-color: #ff66b2;
+    border-color: #ff66b2;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn-pink:hover {
+    background-color: #ff3399;
+    border-color: #ff3399;
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 51, 153, 0.3);
+}
+
+.btn-outline-pink {
+    color: #ff66b2;
+    border-color: #ff66b2;
+    border-radius: 50px; /* Pill shape */
+    font-weight: bold;
+}
+
+.btn-outline-pink:hover {
+    background-color: #ff66b2;
+    color: white;
+}
+
+/* --- Інше --- */
+.border-pink {
+    border-color: #ff66b2 !important;
+}
