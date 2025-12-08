@@ -1,10 +1,10 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from sqlalchemy import MetaData # <--- Додали імпорт
+from sqlalchemy import MetaData 
 from app.config import config
 
-# --- ВАЖЛИВО: Налаштування іменування ключів (щоб не було помилок міграцій) ---
+
 convention = {
     "ix": 'ix_%(column_0_label)s',
     "uq": "uq_%(table_name)s_%(column_0_name)s",
@@ -13,7 +13,7 @@ convention = {
     "pk": "pk_%(table_name)s"
 }
 metadata = MetaData(naming_convention=convention)
-# ------------------------------------------------------------------------------
+
 
 # Передаємо metadata в SQLAlchemy
 db = SQLAlchemy(metadata=metadata)
