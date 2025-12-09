@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Мій Профіль{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-4" style="background-color: #fff0f6;">
+                <div class="card-body p-5 text-center">
+                    <img src="{{ url_for('static', filename='images/photo.jpg') }}" class="rounded-circle mb-3 shadow" style="width: 150px; height: 150px; object-fit: cover; border: 5px solid white;">
+
+                    <h2 class="fw-bold" style="color: #ff66b2;">Вітаю, {{ current_user.username }}! 🌸</h2>
+                    <p class="text-muted fs-5">{{ current_user.email }}</p>
+
+                    <hr class="my-4">
+
+                    <p class="lead">Ви успішно увійшли в свій рожевий кабінет.</p>
+
+                    <div class="d-grid gap-2 d-md-block mt-4">
+                        <a href="{{ url_for('posts.create_post') }}" class="btn btn-primary rounded-pill px-4" style="background-color: #ff66b2; border: none;">Створити пост</a>
+                        <a href="{{ url_for('users.logout') }}" class="btn btn-outline-secondary rounded-pill px-4">Вийти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
