@@ -27,6 +27,13 @@
                             {{ form.content.label(class="form-label text-muted fw-bold") }}
                             {{ form.content(class="form-control form-control-soft", rows="6", placeholder="Напишіть щось цікаве...") }}
                         </div>
+                        <div class="mb-4">
+                            {{ form.user_id.label(class="form-label text-muted fw-bold") }}
+                            {{ form.user_id(class="form-select border-0 shadow-sm", style="border-radius: 15px;") }}
+                            {{ form.tags.label(class="form-label text-muted fw-bold") }}
+                            {{ form.tags(class="form-select border-0 shadow-sm", style="border-radius: 15px; height: 150px;") }}
+                            <div class="form-text">Затисніть Ctrl (Windows) або Cmd (Mac), щоб вибрати декілька.</div>
+                        </div>
 
                         <div class="row mb-4">
                             <div class="col-md-6">

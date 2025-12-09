@@ -303,3 +303,106 @@
 2025-12-08 20:34:11,861 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2025-12-08 20:34:11,863 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "[36mGET /posts/posts/static/css/posts.css HTTP/1.1[0m" 304 -
 2025-12-08 20:34:11,865 - 127.0.0.1 - - [08/Dec/2025 20:34:11] "[36mGET /posts/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:20:24,766 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 14:20:24,766 - [33mPress CTRL+C to quit[0m
+2025-12-09 14:20:24,782 -  * Restarting with stat
+2025-12-09 14:20:26,471 -  * Debugger is active!
+2025-12-09 14:20:26,518 -  * Debugger PIN: 863-361-076
+2025-12-09 14:20:41,632 - 127.0.0.1 - - [09/Dec/2025 14:20:41] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+2025-12-09 14:20:42,198 - 127.0.0.1 - - [09/Dec/2025 14:20:42] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-12-09 14:20:42,467 - 127.0.0.1 - - [09/Dec/2025 14:20:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-09 14:20:54,586 - 127.0.0.1 - - [09/Dec/2025 14:20:54] "[33mGET /posts/create HTTP/1.1[0m" 404 -
+2025-12-09 14:20:54,661 - 127.0.0.1 - - [09/Dec/2025 14:20:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:20:55,998 - 127.0.0.1 - - [09/Dec/2025 14:20:55] "[33mGET /posts/create HTTP/1.1[0m" 404 -
+2025-12-09 14:20:56,084 - 127.0.0.1 - - [09/Dec/2025 14:20:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:20:56,590 - 127.0.0.1 - - [09/Dec/2025 14:20:56] "[33mGET /posts/create HTTP/1.1[0m" 404 -
+2025-12-09 14:20:56,659 - 127.0.0.1 - - [09/Dec/2025 14:20:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:20:56,858 - 127.0.0.1 - - [09/Dec/2025 14:20:56] "[33mGET /posts/create HTTP/1.1[0m" 404 -
+2025-12-09 14:20:56,921 - 127.0.0.1 - - [09/Dec/2025 14:20:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:21:18,075 - 127.0.0.1 - - [09/Dec/2025 14:21:18] "GET /post/create HTTP/1.1" 200 -
+2025-12-09 14:21:18,124 - 127.0.0.1 - - [09/Dec/2025 14:21:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:21:18,157 - 127.0.0.1 - - [09/Dec/2025 14:21:18] "GET /post/posts/static/css/posts.css HTTP/1.1" 200 -
+2025-12-09 14:22:10,368 - 127.0.0.1 - - [09/Dec/2025 14:22:10] "[32mPOST /post/create HTTP/1.1[0m" 302 -
+2025-12-09 14:22:10,435 - 127.0.0.1 - - [09/Dec/2025 14:22:10] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:22:10,520 - 127.0.0.1 - - [09/Dec/2025 14:22:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:22:10,524 - 127.0.0.1 - - [09/Dec/2025 14:22:10] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:22:10,553 - 127.0.0.1 - - [09/Dec/2025 14:22:10] "GET /post/posts/static/img/default.png HTTP/1.1" 200 -
+2025-12-09 14:22:15,067 - 127.0.0.1 - - [09/Dec/2025 14:22:15] "GET /post/4 HTTP/1.1" 200 -
+2025-12-09 14:22:15,117 - 127.0.0.1 - - [09/Dec/2025 14:22:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:22:15,131 - 127.0.0.1 - - [09/Dec/2025 14:22:15] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:22:48,756 - 127.0.0.1 - - [09/Dec/2025 14:22:48] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:22:48,821 - 127.0.0.1 - - [09/Dec/2025 14:22:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:22:48,825 - 127.0.0.1 - - [09/Dec/2025 14:22:48] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:22:48,827 - 127.0.0.1 - - [09/Dec/2025 14:22:48] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:24:25,364 - 127.0.0.1 - - [09/Dec/2025 14:24:25] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:24:25,436 - 127.0.0.1 - - [09/Dec/2025 14:24:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:24:25,442 - 127.0.0.1 - - [09/Dec/2025 14:24:25] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:24:25,452 - 127.0.0.1 - - [09/Dec/2025 14:24:25] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:24:26,530 - 127.0.0.1 - - [09/Dec/2025 14:24:26] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:24:26,584 - 127.0.0.1 - - [09/Dec/2025 14:24:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:24:26,605 - 127.0.0.1 - - [09/Dec/2025 14:24:26] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:24:26,606 - 127.0.0.1 - - [09/Dec/2025 14:24:26] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:24:27,732 - 127.0.0.1 - - [09/Dec/2025 14:24:27] "GET /post/4 HTTP/1.1" 200 -
+2025-12-09 14:24:27,795 - 127.0.0.1 - - [09/Dec/2025 14:24:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:24:27,797 - 127.0.0.1 - - [09/Dec/2025 14:24:27] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:26:34,533 -  * Detected change in 'C:\\Users\\Acer\\Documents\\flask-lab-pivarchuk\\app\\posts\\models.py', reloading
+2025-12-09 14:26:34,852 -  * Restarting with stat
+2025-12-09 14:26:40,075 -  * Debugger is active!
+2025-12-09 14:26:40,090 -  * Debugger PIN: 863-361-076
+2025-12-09 14:40:03,895 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-09 14:40:03,895 - [33mPress CTRL+C to quit[0m
+2025-12-09 14:40:03,895 -  * Restarting with stat
+2025-12-09 14:40:06,180 -  * Debugger is active!
+2025-12-09 14:40:06,189 -  * Debugger PIN: 863-361-076
+2025-12-09 14:40:07,974 - 127.0.0.1 - - [09/Dec/2025 14:40:07] "GET /post/4 HTTP/1.1" 200 -
+2025-12-09 14:40:08,391 - 127.0.0.1 - - [09/Dec/2025 14:40:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:40:08,405 - 127.0.0.1 - - [09/Dec/2025 14:40:08] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:40:09,691 - 127.0.0.1 - - [09/Dec/2025 14:40:09] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:40:09,756 - 127.0.0.1 - - [09/Dec/2025 14:40:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:40:09,763 - 127.0.0.1 - - [09/Dec/2025 14:40:09] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:40:09,765 - 127.0.0.1 - - [09/Dec/2025 14:40:09] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:40:15,487 - 127.0.0.1 - - [09/Dec/2025 14:40:15] "GET /post/4 HTTP/1.1" 200 -
+2025-12-09 14:40:15,550 - 127.0.0.1 - - [09/Dec/2025 14:40:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:40:15,552 - 127.0.0.1 - - [09/Dec/2025 14:40:15] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:40:18,193 - 127.0.0.1 - - [09/Dec/2025 14:40:18] "GET /post/create HTTP/1.1" 200 -
+2025-12-09 14:40:18,263 - 127.0.0.1 - - [09/Dec/2025 14:40:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:40:18,267 - 127.0.0.1 - - [09/Dec/2025 14:40:18] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:41:15,636 - 127.0.0.1 - - [09/Dec/2025 14:41:15] "[32mPOST /post/create HTTP/1.1[0m" 302 -
+2025-12-09 14:41:15,661 - 127.0.0.1 - - [09/Dec/2025 14:41:15] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:41:15,726 - 127.0.0.1 - - [09/Dec/2025 14:41:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:41:15,731 - 127.0.0.1 - - [09/Dec/2025 14:41:15] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:41:15,733 - 127.0.0.1 - - [09/Dec/2025 14:41:15] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:41:19,432 - 127.0.0.1 - - [09/Dec/2025 14:41:19] "GET /post/5 HTTP/1.1" 200 -
+2025-12-09 14:41:19,502 - 127.0.0.1 - - [09/Dec/2025 14:41:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:41:19,505 - 127.0.0.1 - - [09/Dec/2025 14:41:19] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:36,993 - 127.0.0.1 - - [09/Dec/2025 14:43:36] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:43:37,054 - 127.0.0.1 - - [09/Dec/2025 14:43:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:37,061 - 127.0.0.1 - - [09/Dec/2025 14:43:37] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:37,063 - 127.0.0.1 - - [09/Dec/2025 14:43:37] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:43:38,075 - 127.0.0.1 - - [09/Dec/2025 14:43:38] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:43:38,118 - 127.0.0.1 - - [09/Dec/2025 14:43:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:38,143 - 127.0.0.1 - - [09/Dec/2025 14:43:38] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:38,148 - 127.0.0.1 - - [09/Dec/2025 14:43:38] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:43:39,107 - 127.0.0.1 - - [09/Dec/2025 14:43:39] "GET /post/ HTTP/1.1" 200 -
+2025-12-09 14:43:39,166 - 127.0.0.1 - - [09/Dec/2025 14:43:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:39,168 - 127.0.0.1 - - [09/Dec/2025 14:43:39] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:39,174 - 127.0.0.1 - - [09/Dec/2025 14:43:39] "[36mGET /post/posts/static/img/default.png HTTP/1.1[0m" 304 -
+2025-12-09 14:43:40,254 - 127.0.0.1 - - [09/Dec/2025 14:43:40] "GET /post/5 HTTP/1.1" 200 -
+2025-12-09 14:43:40,312 - 127.0.0.1 - - [09/Dec/2025 14:43:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:43:40,313 - 127.0.0.1 - - [09/Dec/2025 14:43:40] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:45:03,503 -  * Detected change in 'C:\\Users\\Acer\\Documents\\flask-lab-pivarchuk\\app\\posts\\views.py', reloading
+2025-12-09 14:45:03,948 -  * Restarting with stat
+2025-12-09 14:45:06,545 -  * Debugger is active!
+2025-12-09 14:45:06,555 -  * Debugger PIN: 863-361-076
+2025-12-09 14:45:07,338 - 127.0.0.1 - - [09/Dec/2025 14:45:07] "GET /post/5 HTTP/1.1" 200 -
+2025-12-09 14:45:07,759 - 127.0.0.1 - - [09/Dec/2025 14:45:07] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:45:07,793 - 127.0.0.1 - - [09/Dec/2025 14:45:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:45:16,984 - 127.0.0.1 - - [09/Dec/2025 14:45:16] "GET /post/5/update HTTP/1.1" 200 -
+2025-12-09 14:45:17,050 - 127.0.0.1 - - [09/Dec/2025 14:45:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:45:17,062 - 127.0.0.1 - - [09/Dec/2025 14:45:17] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2025-12-09 14:45:33,589 - 127.0.0.1 - - [09/Dec/2025 14:45:33] "[32mPOST /post/5/update HTTP/1.1[0m" 302 -
+2025-12-09 14:45:33,615 - 127.0.0.1 - - [09/Dec/2025 14:45:33] "GET /post/5 HTTP/1.1" 200 -
+2025-12-09 14:45:33,689 - 127.0.0.1 - - [09/Dec/2025 14:45:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-12-09 14:45:33,690 - 127.0.0.1 - - [09/Dec/2025 14:45:33] "[36mGET /post/posts/static/css/posts.css HTTP/1.1[0m" 304 -
