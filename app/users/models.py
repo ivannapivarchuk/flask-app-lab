@@ -1,13 +1,12 @@
 from flask_login import UserMixin
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy import Integer, String
+from sqlalchemy import Integer, String, DateTime
+from datetime import datetime
 from app import db, bcrypt, login_manager
-
 
 @login_manager.user_loader
 def load_user(user_id):
     return db.session.get(User, int(user_id))
-
 
 class User(db.Model, UserMixin):
     __tablename__ = 'users'
@@ -15,8 +14,11 @@ class User(db.Model, UserMixin):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     username: Mapped[str] = mapped_column(String(20), unique=True, nullable=False)
     email: Mapped[str] = mapped_column(String(120), unique=True, nullable=False)
-    image_file: Mapped[str] = mapped_column(String(20), nullable=False, default='default.jpg')
+    image_file: Mapped[str] = mapped_column(String(20), nullable=False, default='default.png')
     password: Mapped[str] = mapped_column(String(60), nullable=False)
+
+    about_me: Mapped[str | None] = mapped_column(String(140))
+    last_seen: Mapped[datetime | None] = mapped_column(DateTime, default=datetime.utcnow)
 
     posts: Mapped[list["Post"]] = relationship("Post", back_populates="user", cascade="all, delete-orphan")
 
